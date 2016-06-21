@@ -1,4 +1,4 @@
-//  ========== 
+//  ======= 
 //  =name:gobang 游戏 
 //  =anthor:刘敬
 //  =last modify date:2016-04-13
@@ -44,13 +44,13 @@
 		my.enableCalcWeightNum = false; //显示AI分数
 		my.gameover = false;
 		//棋盘相关
-		my.baseWidth = 30;
+		my.baseWidth =40;
 		my.lastFocusPoint = {}; //鼠标最后移动到的坐标点，计算后的
 		my.cw = self.contextObj.offsetWidth; //棋盘宽
 		my.ch = self.contextObj.offsetHeight; //高
 		my.xlen = Math.ceil(my.cw / my.baseWidth); //行数
 		my.ylen = Math.ceil(my.ch / my.baseWidth); //列
-		my.chessRadius = 14; //棋子半径
+		my.chessRadius = 10; //棋子半径
 		my.playerBIsComputer = false; //棋手B是否是电脑
 		my.ComputerThinking = false; //电脑是否在下棋
 		my.goBackC2dIsComputer = false; //最后下棋是否为电脑
